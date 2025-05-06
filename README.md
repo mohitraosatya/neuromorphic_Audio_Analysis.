@@ -12,8 +12,7 @@ This repository implements neuromorphic auditory processing inspired by the biol
 ## Structure
 - `encode_spikes.py` – Converts audio to Poisson spikes
 - `homeostatic_model.ipynb` – Colab notebook demonstrating homeostatic improvements
-- `utils/` – Helper scripts for preprocessing, plotting, and CV metrics
-- `data/` – Example audio files (or provide your own)
+
 
 ## Results
 The homeostatic model reduces inter-channel spike-rate variability by **53.7%**, improving signal representation consistency and biological plausibility.
